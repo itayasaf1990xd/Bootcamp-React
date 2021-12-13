@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.border-style {
+  display: inline-block;
+  padding: 5px 50px 50px 5px;
+  margin: 10px;
+  border: 2.5px solid #333333;
+}
+
+div.input-style {
+  margin-top: 10px;
+}
+
+label,
+input {
+  display: block;
+}
+
