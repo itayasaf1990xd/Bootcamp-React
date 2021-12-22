@@ -1,0 +1,51 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 1.75rem;
+  border: none;
+  background: #fefefe;
+  padding-left: 15px;
+}
+
+form input {
+  width: 400px;
+  height: 50px;
+  font-size: 1.20rem;
+  color: #25A0F7;
+}
+
+form input:focus {
+  /* border: 1px solid #098DEC; */
+  box-shadow: 0px 0px 20px 2px #36A7F880;
+  outline: none;
+}
+
+form input::placeholder {
+  color: #25A0F780;
+}
+
+form button {
+  position: absolute;
+  color: #25A0F7;
+  background: #fefefe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  left: 525px;
+  text-align: center;
+}
+
+form i {
+  padding: 6px;
+}
+
+form button:hover {
+  background: #25A0F7;
+  color: #fefefe;
+}
