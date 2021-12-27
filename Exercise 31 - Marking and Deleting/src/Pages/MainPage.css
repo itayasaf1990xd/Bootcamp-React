@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.list-items {
+  list-style: none;
+}
+
+.list-container {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.item-wrapper {
+  margin: 7.5px 0 0 0;
+}
+
+.item-label {
+  text-transform: capitalize;
+  margin: 5px
+}
+
+.item-input {
+  vertical-align: -2.5px;
+}
