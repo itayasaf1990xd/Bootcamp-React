@@ -1,0 +1,26 @@
+.task {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.content {
+  margin: 0 5px 0 0;
+  font-weight: 500;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon-good {
+  color: green;
+}
+
+.icon-bad {
+  color: red;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
